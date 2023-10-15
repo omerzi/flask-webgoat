@@ -7,6 +7,7 @@ ARG BRANCH=master
 WORKDIR /app
 COPY . /app/
 
+
 # Download ShiftLeft
 RUN curl https://cdn.shiftleft.io/download/sl > sl && chmod a+rx sl
 
