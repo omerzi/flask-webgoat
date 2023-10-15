@@ -12,6 +12,7 @@ COPY . /app/
 RUN curl https://cdn.shiftleft.io/download/sl > sl && chmod a+rx sl
 
 # Create virtual env
+
 RUN python3 -m venv .venv \
     && . .venv/bin/activate \
     && pip install --upgrade setuptools wheel \
