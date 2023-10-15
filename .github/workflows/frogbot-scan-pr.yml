@@ -61,6 +61,8 @@ jobs:
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+          JF_ALLOWED_LICENSES: "Apache-2.0"
+
           # [Optional]
           # If the machine that runs Frogbot has no access to the internat, set the name of a remote repository
           # in Artifactory, which proxies https://releases.jfrog.io/artifactory
